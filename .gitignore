@@ -1,3 +1,11 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
 
 # Created by https://www.gitignore.io/api/intellij,eclipse,netbeans
 
