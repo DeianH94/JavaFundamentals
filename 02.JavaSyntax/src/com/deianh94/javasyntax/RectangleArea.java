@@ -9,6 +9,7 @@ public class RectangleArea {
         Scanner consoleInput = new Scanner(System.in);
         int sideA = consoleInput.nextInt();
         int sideB = consoleInput.nextInt();
+        consoleInput.close();
         System.out.println("The area of the rectangle is: " + (sideA * sideB));
     }
 }

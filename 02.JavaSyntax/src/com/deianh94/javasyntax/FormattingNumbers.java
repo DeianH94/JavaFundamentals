@@ -11,6 +11,7 @@ public class FormattingNumbers {
         int a = consoleInput.nextInt();
         double b = consoleInput.nextDouble();
         double c = consoleInput.nextDouble();
+        consoleInput.close();
         int aBinary = Integer.parseInt(Integer.toBinaryString(a));
 
         System.out.printf("|%-10X|%010d|%10.2f|%-10.3f|", a, aBinary, b, c);

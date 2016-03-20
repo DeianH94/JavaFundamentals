@@ -6,6 +6,7 @@ public class ConvertFromBaseSevenToDecimal {
     public static void main(String[] args) {
         Scanner consoleInput = new Scanner(System.in);
         String num = consoleInput.next();
+        consoleInput.close();
         int decimal=0;
         int power=0;
         while(num.length()>0) {

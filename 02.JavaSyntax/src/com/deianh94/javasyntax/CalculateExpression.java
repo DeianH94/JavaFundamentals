@@ -7,9 +7,11 @@ public class CalculateExpression {
     public static void main(String[] args) {
         Scanner consoleInput = new Scanner(System.in);
         Locale.setDefault(Locale.ROOT);
+        System.out.println("Input a, b and c");
         double a = consoleInput.nextDouble();
         double b = consoleInput.nextDouble();
         double c = consoleInput.nextDouble();
+        consoleInput.close();
 
         double funkOneBody = ((a * a + b * b) / (a * a - b * b));
         double funkOnePower = (a + b + c)/ Math.sqrt(c);
