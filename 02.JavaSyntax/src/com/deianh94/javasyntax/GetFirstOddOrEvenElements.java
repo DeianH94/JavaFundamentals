@@ -1,9 +1,11 @@
 package com.deianh94.javasyntax;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class GetFirstOddOrEvenElements {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
         Scanner consoleInput = new Scanner(System.in);
         String[] inputString = consoleInput.nextLine().split("[ ]+");
         String[] command = consoleInput.nextLine().split("[ ]+");

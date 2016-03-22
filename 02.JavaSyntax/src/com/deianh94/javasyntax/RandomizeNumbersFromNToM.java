@@ -1,10 +1,12 @@
 package com.deianh94.javasyntax;
 
+import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
 
 public class RandomizeNumbersFromNToM {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
         Scanner consoleInput = new Scanner(System.in);
         int n = consoleInput.nextInt();
         int m = consoleInput.nextInt();

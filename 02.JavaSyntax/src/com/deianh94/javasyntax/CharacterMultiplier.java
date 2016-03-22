@@ -1,9 +1,11 @@
 package com.deianh94.javasyntax;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CharacterMultiplier {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ROOT);
         Scanner consoleInput = new Scanner(System.in);
         System.out.println("Input the two string");
         String firstString = consoleInput.next();

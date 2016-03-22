@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 public class FormattingNumbers {
     public static void main(String[] args) {
-
-        Scanner consoleInput = new Scanner(System.in);
         Locale.setDefault(Locale.ROOT);
+        Scanner consoleInput = new Scanner(System.in);
         int a = consoleInput.nextInt();
         double b = consoleInput.nextDouble();
         double c = consoleInput.nextDouble();

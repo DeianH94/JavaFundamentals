@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class CalculateExpression {
     public static void main(String[] args) {
-        Scanner consoleInput = new Scanner(System.in);
         Locale.setDefault(Locale.ROOT);
+        Scanner consoleInput = new Scanner(System.in);
         System.out.println("Input a, b and c");
         double a = consoleInput.nextDouble();
         double b = consoleInput.nextDouble();
