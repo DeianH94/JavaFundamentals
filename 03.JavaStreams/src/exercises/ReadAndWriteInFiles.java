@@ -1,8 +1,10 @@
+package exercises;
+
 import java.io.*;
 
 public class ReadAndWriteInFiles {
-    private static final String FILE_PATH = "C:\\Users\\Admin\\Documents\\GitHub\\JavaFundamentals\\03.JavaStreams\\users.txt";
-    private static final String SAVE_PATH = "C:\\Users\\Admin\\Documents\\GitHub\\JavaFundamentals\\03.JavaStreams\\total-time.txt";
+    private static final String FILE_PATH = "resources/users.txt";
+    private static final String SAVE_PATH = "resources/total-time.txt";
 
     public static void main(String[] args) {
         File file = new File(FILE_PATH);
