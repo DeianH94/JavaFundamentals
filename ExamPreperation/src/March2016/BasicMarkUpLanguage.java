@@ -12,17 +12,13 @@ public class BasicMarkUpLanguage {
         String line = scanner.nextLine();
 
         while (!line.equals("<stop/>")) {
-            String[] command = line.split(" ");
-            switch (command[0]) {
-                case "<inverse":
-                    inverse(line);
-                    break;
-                case "<reverse":
-                    reverse(line);
-                    break;
-                case "<repeat":
-                    repeat(line);
-                    break;
+            String[] command = line.split("\\s+");
+            if (command[0].equals("<inverse") || command[1].equals("inverse")) {
+                inverse(line);
+            } else if (command[0].equals("<reverse") || command[1].equals("reverse")) {
+                reverse(line);
+            } else if (command[0].equals("<repeat") || command[1].equals("repeat")) {
+                repeat(line);
             }
 
             line = scanner.nextLine();
